@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <title>Twitter</title>
+</head>
+<body>
+  <div class="container-fluid"><!--div container inicio-->
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 todo_app">
+        <h1 class="text-center">TODO APP</h1>
+      </div>   
+    </div>
+
+    <div class="row text_tarea"><!--div text-tarea inicio-->
+      <div class="col-xs-12 col-sm-12 col-md-12"> 
+        <textarea class="form-control" id="texto" rows="5" placeholder="Añadir nueva tarea"></textarea>
+      </div>
+    </div><!--div text-tarea cierre-->
+
+    <div class="row"> <!--div inicio boton-->
+      <button type="button" class="glyphicon glyphicon-plus btn btn-primary" onclick="nuevaTarea()"> Añadir tarea</button>
+    </div><!--cierre div boton-->
+
+    <div id="contenedor_nuevatarea"> <!--div agregar lista inicio-->
+      <!--<div class="row fondo tex">
+        <span>checkbox</span>
+        <span>TEXTO</span>
+        <i class="glyphicon glyphicon-trash">icono</i>
+        <i class="glyphicon glyphicon-heart">icono</i>
+      </div>-->
+      <!--ACA VA LA LISTA DE TAREAS-->
+    </div><!--div agregar lista cierre-->
+  </div> <!--div container cierre-->
+  <script type='text/javascript' src='js/script.js'></script>
+</body>
+</html><!--etiqueta cierre html-->

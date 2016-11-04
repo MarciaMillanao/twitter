@@ -1,0 +1,24 @@
+
+.todo_app{
+	background:#1DA1F2;
+}
+
+.text_tarea{
+	padding: 1% 0%;
+}
+
+.btn{
+	background:#1DA1F2;
+}
+
+.glyphicon-trash{
+
+}
+
+.tachado{
+	text-decoration: line-through;
+}
+
+.corazon{
+	color:red;
+}
