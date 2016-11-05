@@ -24,9 +24,10 @@ function nuevaTarea(){
 	eliminar_span.setAttribute('class', 'glyphicon glyphicon-heart');
 	corazon_span.setAttribute('class', 'glyphicon glyphicon-heart');*/
 	//asigno hijos
+	
+	container_div.appendChild(checkbox_span);
 	contenedor_lista.appendChild(tex_span)
 	container_div.appendChild(contenedor_lista);
-	container_div.appendChild(checkbox_span);
 	container_div.appendChild(eliminar_span);
 	container_div.appendChild(corazon_span);
 	contenedor.appendChild(container_div);
