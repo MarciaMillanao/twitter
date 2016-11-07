@@ -1,6 +1,7 @@
 
 .todo_app{
 	background:#1DA1F2;
+	color: #FFFFFF;
 }
 
 .text_tarea{
@@ -9,10 +10,19 @@
 
 .btn{
 	background:#1DA1F2;
+	margin-left: 2%;
+	margin-bottom: 1%;
 }
 
-.glyphicon-trash{
+.lista{
+	background:#1DA1F2;
+	margin:3px;
+	padding: 1%;
+	border:2px solid #FFFFFF;
+}
 
+.text_lista{
+	margin-left: 2%;
 }
 
 .tachado{
@@ -21,4 +31,28 @@
 
 .corazon{
 	color:red;
+}
+
+.checkbox{
+	margin-right:40%; 
+}
+
+.text_lista{
+	width: 20%;
+}
+
+.glyphicon-trash{
+	float: right;
+
+}
+
+.glyphicon-heart{
+	float: right;
+padding-right: 1%;
+}
+
+@media screen and (max-width: 700px){
+	#texto{
+		overflow-y: scroll;
+	}
 }
